@@ -1,0 +1,119 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: #111827;
+  /* Modern dark background */
+  font-family: 'Inter', Roboto, Outfit, sans-serif;
+  color: #333;
+}
+
+.auth-container {
+  max-width: 400px;
+  margin: 5rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-card {
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: none;
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  border-radius: 14px;
+}
+
+.card:hover,
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  transition: 0.2s;
+}
+
+.chart-container {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 20px;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  transition: 0.2s;
+}
+
+.navbar-brand:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.expense-item {
+  transition: all 0.2s;
+}
+
+.expense-item:hover {
+  background-color: #f1f3f5;
+}
+
+/* Custom CSS to mimic the requested Tailwind classes */
+.custom-budget-input {
+  background-color: #222630;
+  padding: 0.75rem 1rem;
+  outline: none;
+  width: 280px;
+  color: white;
+  border-radius: 0.5rem;
+  border: 2px solid #2B3040;
+  transition: border-color 100ms;
+}
+
+.custom-budget-input:focus {
+  border-color: #596A95;
+}
+
+/* Navbar Customizations */
+.navbar-custom {
+  background: linear-gradient(135deg, #1f6feb, #0d47a1) !important;
+  padding: 12px 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.nav-buttons {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 6px 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.nav-buttons button,
+.nav-buttons a {
+  transition: 0.2s;
+}
+
+.nav-buttons button:hover,
+.nav-buttons a:hover {
+  transform: translateY(-2px);
+  background-color: #f8f9fa;
+}
+
+.nav-active {
+  background: #1f6feb !important;
+  color: white !important;
+  border-radius: 8px;
+}
+
+/* Dashboard Title Enhancements */
+.dashboard-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
