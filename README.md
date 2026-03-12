@@ -104,3 +104,12 @@ npm run dev
 ## 📄 License
 
 This project is licensed under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+**Sai Abhay**
+
+🔗 LinkedIn: https://www.linkedin.com/in/sai-abhay  
+💻 GitHub: https://github.com/saiabhay2006-jpg
