@@ -8,7 +8,7 @@ It helps users manage expenses, set monthly budgets, and visualize spending patt
 ## 🚀 Live Demo
 
 Frontend:  
-https://track-my-spend.vercel.app
+https://track-my-spend-expense.vercel.app/login
 
 Backend API:  
 https://trackmyspend-api.onrender.com
